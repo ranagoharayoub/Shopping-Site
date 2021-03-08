@@ -1,0 +1,14 @@
+.footwear-container{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../LeatherShoes.jpg');
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}

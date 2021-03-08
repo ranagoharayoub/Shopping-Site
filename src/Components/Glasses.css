@@ -1,0 +1,17 @@
+.glasses-container{
+    background-image: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url('../glasses.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.glasses{
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}

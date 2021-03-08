@@ -1,0 +1,71 @@
+.login-cnt{
+    background-image: url('../Login.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-form{
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px;
+    padding: 200px 250px;
+    background-color:black;
+    filter: opacity(0.7);
+    border: solid;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-content{
+
+
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#email{
+    padding: 5px 0px;
+    border-radius: 20px;
+}
+
+#password{
+    padding: 5px 0px;
+    border-radius: 20px;
+
+}
+
+.login-button{
+    margin-top: 20px;
+    background-color: black;
+    border: solid;
+    color: white;
+    border-color: white;
+    padding: 7px 50px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.login-button:hover{
+    background-color: maroon;
+}
+
+@media (max-width: 500px){
+    .login-form{
+        box-sizing: border-box;
+        width: 250px;
+        height: 200px;
+        padding: 200px 200px;
+    }
+}

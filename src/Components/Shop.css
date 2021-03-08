@@ -1,0 +1,91 @@
+.digitalshop{
+    background-image:url('../digitalshop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    /* display: flex;
+    align-items: center; */
+
+}
+
+
+.products{
+    display: grid;
+    float: left;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    
+}
+
+.products-2{
+    display: grid;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    
+    
+}
+
+#prod{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    /* margin-top: 15%; */
+    border: 3px solid brown;
+
+}
+.prod-name{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: brown;
+    color: white;
+    border: solid;
+    padding: 5px 5px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#prod:hover{
+    opacity: 1.0;
+    transition: 0.5s ease-in-out;
+}
+
+.prod-name:hover{
+    opacity: 1.0;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 1120px){
+    .digitalshop{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        height: 190vh;
+   }
+
+   .store-pic{
+       display: flex;
+       justify-content: center;
+   }
+
+    .products{
+        margin-top: 10vh;
+        position: static;
+        display: grid;
+
+    }
+    .products-2{
+        position: static;
+        display: grid;
+    }
+}

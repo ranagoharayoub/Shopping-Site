@@ -1,0 +1,24 @@
+.mobile-nav{
+    height: 66vh;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+
+.mobilenav-items{
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#mob-list{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.about-cont{
+
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url('../about.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.about{
+    position: relative;
+    top: 5%;
+}
+
+.intro{
+    margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+.contact-cnt{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),  url('../contact.jpg');
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.contact-us{
+    margin: 10px 0px;
+    font-size: 40px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.statement{
+    text-align: center;
+    font-size: large;
+}
+
+.contact-list{
+    display: flex;
+    /* width: 109%; */
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+}
+
+
+.feedback-cnt{
+    height: 100px;
+    width: auto;
+    padding: 100px;
+    background-color: black;
+    filter: opacity(0.5);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120%;
+}
+
+
+
+.feedback-form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.submit-button{
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: solid;
+}
+
+.submit-button:hover{
+    background-color: brown;
+}
+
+
+@media (max-width: 700px){
+    .feedback-cnt{
+        height: 125px;
+        width: auto;
+        padding: 125px;
+        background-color: black;
+        filter: opacity(0.5);
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 80%;
+    }
+    .feedback-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+    }
+}

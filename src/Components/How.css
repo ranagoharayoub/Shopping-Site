@@ -1,0 +1,23 @@
+
+.how-cnt{
+    background-color: skyblue;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid{
+    width: 1000px; 
+    height: 500px;
+}
+
+@media (max-width: 900px) {
+    .vid{
+        width: 450px;
+        height: 500px;
+    }
+}

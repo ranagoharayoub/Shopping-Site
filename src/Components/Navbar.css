@@ -1,0 +1,136 @@
+*{
+    outline: none;
+}
+.nav-container{
+    height: 10vh;
+    width: 100%;
+    background-color:brown;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo-side{
+    display: flex;
+    align-items: center; 
+    margin-left: 80px;
+}
+
+
+.logo{
+
+    width: 40px;
+    height: auto;
+
+}
+
+#title{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: underline orange;
+    
+    
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+
+
+#list{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 5px solid orange;
+}
+
+.list:hover{
+    color:orange;
+    transition: 0.2s ease-out;
+    border-bottom: 5px solid ;
+    /* border-color: skyblue; */
+    
+}
+
+.menu-btn{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .logo-side{
+
+        margin-left: 40px;
+    }
+    .checkbox{
+        display: flex;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .nav{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: dimgray;
+        top: 10vh;
+        left: 0;
+        display: none;
+        justify-content: center;
+    }
+
+    .click-btn{
+        padding: 0%;
+        display: flex;
+        background-color: inherit;
+        border: none;
+        color: white;
+    }
+
+    .menu-btn{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin-right: 30px;
+        border: none;
+    }
+
+    .click-btn:hover{
+        color: orange;
+        cursor: pointer;
+        border: none;
+    }
+
+    #list{
+        border: none;
+    }
+    .list{
+        margin-top: 30px;
+    }
+
+}
