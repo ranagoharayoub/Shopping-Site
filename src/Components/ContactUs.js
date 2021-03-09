@@ -11,19 +11,19 @@ function ContactUs() {
             <div className='flex'>
                 <div className='contact-items'>
                     <ul className='contact-list'>
-                        <div>
+                        <div className='contact-li'>
                             <li className='li'> Adress</li>
-                            <li className='li'> PNEC NUST KARACHI</li>
+                            <li className='li'> XYZ ROAD KARACHI</li>
                         </div>
-                        <div>
+                        <div className='contact-li'>
                             <li className='li'> Phone/Fax</li>
                             <li className='li'> 021-0000000</li>
                         </div>
-                        <div>
+                        <div className='contact-li'>
                             <li className='li'> Email</li>
                             <li className='li'> ideal@anymail.com</li>
                         </div>
-                        <div>
+                        <div className='contact-li'>
                             <li className='li'> Toll Free Number</li>
                             <li className='li'> 0300-0000000</li>
                         </div>
@@ -33,15 +33,15 @@ function ContactUs() {
                     <h2 className='feedback'>Feedback</h2>
                     <div className='feedback-form'>
                         <div className='grid'>
-                            <p for='user-name'>User Name</p>
+                            <p>User Name</p>
                             <input type='text' className='common' id='user-name' ></input>
                         </div>
                         <div className='grid'>
-                            <p for='user-email'>Email Address</p>
+                            <p >Email Address</p>
                             <input type='text' className='common' id='user-email' ></input>
                         </div>
                         <div className='grid'>
-                            <p for='input-feedback'>Query/Feedback</p>
+                            <p >Query/Feedback</p>
                             <input type='text' className='common' id='input-feedback'></input>
                         </div>
                     </div>

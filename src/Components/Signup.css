@@ -67,10 +67,21 @@
 }
 
 @media (max-width: 500px){
+
+
+    .info-placing{
+        display: flex;
+        flex-direction: column;
+    
+    }
     .signup-box{
         box-sizing: border-box;
         height: 200px;
         width: 200px;
-        padding: 200px 225px;
+        padding: 200px 170px;
+    }
+    .btn{
+
+        justify-content: normal;
     }
 }

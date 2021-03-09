@@ -5,15 +5,15 @@ import '@material-ui/icons'
 import { Menu } from '@material-ui/icons';
 
 
-function Navbar({click}) {
+function Navbar({click, closeClick}) {
 
     return (
         <nav className='nav-container'>
             <div className='logo-side'>
-                    <Link to='/' onClick={click}>
+                    <Link to='/' onClick={closeClick}>
                         <img src='/carts.png' alt='logo' className='logo'></img>
                     </Link>    
-                    <Link to='/'  id='title' onClick={click}>     
+                    <Link to='/'  id='title' onClick={closeClick}>     
                         Shopicide
                     </Link>
             </div>

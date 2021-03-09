@@ -68,7 +68,22 @@
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 400px){
+
+    .contact-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        list-style: none;
+        margin-top: 30px;
+    }
+
+    .contact-li{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 20px;
+    }
+
     .feedback-cnt{
         height: 125px;
         width: auto;
@@ -81,7 +96,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 80%;
+        top: 60%;
     }
     .feedback-form{
         display: flex;

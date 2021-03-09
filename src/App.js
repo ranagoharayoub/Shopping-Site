@@ -40,9 +40,9 @@ const [width, setwidth] = useState(null)
     
       <Router>
         <div className="App">
-          <Navbar click={clickHandler}></Navbar>
+          <Navbar click={clickHandler} closeClick={()=> setstate(false)}></Navbar>
           {
-            state && width <= 700 ? <MobileNavbar click={clickHandler}></MobileNavbar>
+            state && width <= 700 ? <MobileNavbar click={() => setstate(false)}></MobileNavbar>
             :
           <Switch>
             <Route path='/' exact component={Home}></Route>
@@ -58,7 +58,7 @@ const [width, setwidth] = useState(null)
             <Route path='/contactus' component={ContactUs}></Route>
           </Switch>
           }
-          <Footer click={clickHandler}></Footer>
+          <Footer click={() => setstate(false)}></Footer>
         </div>
       </Router>
   );

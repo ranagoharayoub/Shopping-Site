@@ -64,8 +64,8 @@
 @media (max-width: 500px){
     .login-form{
         box-sizing: border-box;
-        width: 250px;
+        width: 200px;
         height: 200px;
-        padding: 200px 200px;
+        padding: 200px 170px;
     }
 }
