@@ -1,7 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './ContactUs.css'
 
 function ContactUs() {
+
+    useEffect(() => {
+        document.title='Contact Us'
+    }, [])
+
     return (
         <div className='contact-cnt'>
             <div>

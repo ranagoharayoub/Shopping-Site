@@ -1,7 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './How.css'
 
 function How() {
+    useEffect(() => {
+        document.title='How'
+     }, [])
     return (
         <div className='how-cnt'>
             <div className='video-box'>

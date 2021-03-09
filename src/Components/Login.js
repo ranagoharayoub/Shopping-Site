@@ -1,7 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './login.css'
 
 function Login() {
+    useEffect(() => {
+        document.title='Login'
+     }, [])
     return (
         <div className='login-cnt'>
             <div className='login-form'>

@@ -4,7 +4,7 @@ import './About.css'
 function About() {
 
     useEffect(() => {
-        document.title='Shopicide-About'
+        document.title='About'
     }, [])
 
     return (

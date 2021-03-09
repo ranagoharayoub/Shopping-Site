@@ -1,7 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './Footwear.css'
 
 function Footwear() {
+    useEffect(() => {
+       document.title='Footwear'
+    }, [])
     return (
         <div className='footwear-container'>
             <div>

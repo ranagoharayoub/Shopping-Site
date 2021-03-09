@@ -1,6 +1,10 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './Signup.css'
 function Signup() {
+    useEffect(() => {
+        document.title='Signup'
+     }, [])
     return (
         <div className='signup-cnt'>
             <div className='signup-box'>
